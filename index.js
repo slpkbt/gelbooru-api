@@ -101,7 +101,7 @@ class Gelbooru {
         return new Promise(async (resolve, reject) => {
             const posts = await this.getPosts("sort:random "+tags, 1, 1);
             if (posts.success == false) resolve(posts);
-            resolve(posts[posts.length]);
+            resolve(posts[0]);
         })
     }
 
