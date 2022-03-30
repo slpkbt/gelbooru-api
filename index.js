@@ -76,7 +76,7 @@ class Gelbooru {
 
     async getPosts(tags = this.tags, limit = this.limit, pid = 0) {
         return new Promise((resolve, reject) => {
-            request(`${this.baseUrl}&s=post&tags=${tags}&limit=${limit}&pid=pid`, (err, res, body) => {
+            request(`${this.baseUrl}&s=post&tags=${tags}&limit=${limit}&pid=${pid}`, (err, res, body) => {
                 if (err) {
                     reject(err);
                 } else {
@@ -97,11 +97,11 @@ class Gelbooru {
      * @return {Promise<Post>}
      */
 
-    async getRandomPost(tags = this.tags, limit = this.limit, pid = 0) {
+    async getRandomPost(tags = this.tags) {
         return new Promise(async (resolve, reject) => {
-            const posts = await this.getPosts(tags, limit, pid);
+            const posts = await this.getPosts("sort:random "+tags, 1, 1);
             if (posts.success == false) resolve(posts);
-            resolve(posts[Math.floor(Math.random() * posts.length)]);
+            resolve(posts[0]);
         })
     }
 
