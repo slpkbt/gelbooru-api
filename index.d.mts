@@ -1,0 +1,14 @@
+import Gelbooru from './index.js';
+export default Gelbooru;
+export { Gelbooru };
+export const GelbooruError: typeof Gelbooru.GelbooruError;
+export type GelbooruError = Gelbooru.GelbooruError;
+export type Options = Gelbooru.Options;
+export type Tags = Gelbooru.Tags;
+export type Post = Gelbooru.Post;
+export type Tag = Gelbooru.Tag;
+export type User = Gelbooru.User;
+export type PostSearch = Gelbooru.PostSearch;
+export type PostPage = Gelbooru.PostPage;
+export type NoResults = Gelbooru.NoResults;
+export type ErrorCode = Gelbooru.ErrorCode;
