@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="450" viewBox="0 0 1260 450" role="img" aria-labelledby="title desc">
+  <title id="title">gelbooru-api — Search by tag</title>
+  <desc id="desc">A dark blue editorial banner with an illustrated search box and layered landscape cards.</desc>
+  <defs>
+    <linearGradient id="back" x2="1" y2="1"><stop stop-color="#101529"/><stop offset="1" stop-color="#090e1d"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#4655a8" stop-opacity=".85"/><stop offset="1" stop-color="#4655a8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#25285f"/><stop offset="1" stop-color="#8a7cb3"/></linearGradient>
+    <linearGradient id="warm" x2="0" y2="1"><stop stop-color="#704c7d"/><stop offset="1" stop-color="#fead82"/></linearGradient>
+    <linearGradient id="cold" x2="0" y2="1"><stop stop-color="#122e4f"/><stop offset="1" stop-color="#4daca8"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#899be4" stroke-opacity=".13"/></pattern>
+    <clipPath id="r1"><rect x="10" y="10" width="185" height="137" rx="12"/></clipPath>
+    <clipPath id="r2"><rect x="10" y="10" width="237" height="166" rx="15"/></clipPath>
+    <clipPath id="r3"><rect x="10" y="10" width="167" height="116" rx="12"/></clipPath>
+  </defs>
+  <rect width="1260" height="450" rx="32" fill="url(#back)"/>
+  <ellipse cx="983" cy="200" rx="345" ry="235" fill="url(#glow)"/>
+  <path d="M748 16h453v418H748z" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1258" height="448" rx="31" fill="none" stroke="#323f66"/>
+  <circle cx="86" cy="78" r="5" fill="#f8df8e"/>
+  <g font-family="ui-monospace,monospace">
+    <text x="105" y="83" fill="#b2bee9" font-size="15" letter-spacing="3">OPEN-SOURCE • NODE.JS SDK</text>
+    <text x="76" y="360" fill="#aab7e4" font-size="15" letter-spacing="2">ZERO DEPENDENCIES</text>
+    <path d="M272 355h35" stroke="#54638e"/>
+    <text x="325" y="360" fill="#aab7e4" font-size="15" letter-spacing="2">ESM + CJS</text>
+  </g>
+  <g font-family="system-ui, sans-serif">
+    <text x="73" y="171" fill="#f4f6ff" font-size="77" font-weight="800" letter-spacing="-5">gelbooru<tspan fill="#f8df8e">-api</tspan></text>
+    <text x="78" y="223" fill="#c9d4fa" font-size="24">Search by tag. Build with the results.</text>
+  </g>
+  <rect x="76" y="262" width="495" height="58" rx="15" fill="#151e37" stroke="#475a8d"/>
+  <g transform="translate(104 291)" fill="none" stroke="#f8df8e" stroke-width="2.6" stroke-linecap="round"><circle r="8"/><path d="m6 6 5 5"/></g>
+  <text x="128" y="298" fill="#e8ecff" font-family="ui-monospace,monospace" font-size="20">night_sky <tspan fill="#f8df8e">rating:general</tspan></text>
+  <g transform="translate(728 110) rotate(-12 100 82)">
+    <rect x="0" y="9" width="205" height="179" rx="18" fill="#060914" opacity=".65"/>
+    <rect width="205" height="173" rx="18" fill="#18253f" stroke="#596d9e"/>
+    <g clip-path="url(#r1)">
+      <rect x="10" y="10" width="185" height="137" fill="url(#warm)"/>
+      <circle cx="148" cy="57" r="22" fill="#ffddaa"/>
+      <path d="M0 122l50-40 40 29 38-32 79 68H0z" fill="#493e70"/>
+      <path d="M0 139l60-30 78 19 69-10v30H0z" fill="#22284b"/>
+    </g>
+    <path d="M17 159h66m13 0h20" stroke="#7484ac" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(1005 186) rotate(12 90 75)">
+    <rect x="0" y="10" width="187" height="156" rx="17" fill="#070b15" opacity=".7"/>
+    <rect width="187" height="151" rx="17" fill="#16243c" stroke="#526c97"/>
+    <g clip-path="url(#r3)">
+      <rect x="10" y="10" width="167" height="116" fill="url(#cold)"/>
+      <path d="M6 85c35-21 59-5 83-30s54-18 92-43" fill="none" stroke="#a6eee7" stroke-width="3" opacity=".65"/>
+      <path d="M0 115l56-33 25 23 28-38 83 60H0z" fill="#153242"/>
+    </g>
+    <path d="M17 137h55m13 0h19" stroke="#7484ac" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(846 133) rotate(-5 130 105)">
+    <rect x="0" y="13" width="257" height="218" rx="22" fill="#080a14" opacity=".8"/>
+    <rect width="257" height="215" rx="22" fill="#1a2847" stroke="#9baae2"/>
+    <g clip-path="url(#r2)">
+      <rect x="10" y="10" width="237" height="166" fill="url(#sky)"/>
+      <circle cx="168" cy="65" r="33" fill="#f9dd9b"/>
+      <g fill="#f8e9ca"><circle cx="29" cy="42" r="1.5"/><circle cx="66" cy="71" r="2"/><circle cx="106" cy="42" r="1.5"/><circle cx="212" cy="42" r="2"/><circle cx="227" cy="71" r="1.3"/><circle cx="124" cy="77" r="1.5"/></g>
+      <path d="M0 152l70-62 54 45 31-30 49 31 53-31v77H0z" fill="#38466f"/>
+      <path d="M0 171l62-32 75 14 40-15 80 29v15H0z" fill="#1d2b50"/>
+      <path d="M116 159h92m-75 7h47" stroke="#d0aed0" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <path d="M20 194h71m16 0h30" stroke="#a0aed9" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="230" cy="195" r="6" fill="#f8df8e"/>
+  </g>
+  <path d="m1075 318 10 41 9-12 15 10 6-9-16-10 14-5z" fill="#f8df8e" stroke="#0c1020" stroke-width="3" stroke-linejoin="round"/>
+</svg>

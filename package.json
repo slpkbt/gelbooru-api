@@ -1,5 +1,22 @@
 {
-  "dependencies": {
-    "request": "^2.88.2"
-  }
+  "name": "gelbooru-api",
+  "version": "2.0.0",
+  "description": "Unofficial, dependency-free Node.js client for the Gelbooru DAPI",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": { "types": "./index.d.mts", "default": "./index.mjs" },
+      "require": { "types": "./index.d.ts", "default": "./index.js" }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["index.js", "index.mjs", "index.d.ts", "index.d.mts", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test", "pack:check": "npm pack --dry-run" },
+  "repository": { "type": "git", "url": "git+https://github.com/slpkbt/gelbooru-api.git" },
+  "homepage": "https://github.com/slpkbt/gelbooru-api#readme",
+  "bugs": { "url": "https://github.com/slpkbt/gelbooru-api/issues" },
+  "keywords": ["gelbooru", "dapi", "api", "image-search", "tags"]
 }
